@@ -1,230 +1,262 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=>, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Day 2</title>
+    <title>Day 4</title>
 </head>
 
 <body>
-<!-- title -->
-    <header id="top">
-        
-        <h1>
-            <img src="https://media.tenor.com/xxkk4dDfv2MAAAAj/bow.gif"
-            height="100px" 
-            alt="bow gif">
-            gameplayingamy
-            <img src="https://media.tenor.com/xxkk4dDfv2MAAAAj/bow.gif"
-            height="100px" 
-            alt="bow gif">
-        </h1>
     
+    <!-- title -->
+    <header id="top">
+
+        <h1>
+            <img src="https://media.tenor.com/xxkk4dDfv2MAAAAj/bow.gif" height="100px" alt="bow gif">
+            gameplayingamy
+            <img src="https://media.tenor.com/xxkk4dDfv2MAAAAj/bow.gif" height="100px" alt="bow gif">
+        </h1>
+
     </header>
 
     <nav>
-            <!--  menu -->
-            <a href="#about">About</a>
-            <a href="#quiz">Quiz</a>
-            <a href="#games">Games</a>
-            <a href="#collect">Collectibles</a>
-            <a href="#contact">Contact</a>
+        <!--  menu -->
+        <a href="#about">About</a>
+        <a href="#quiz">Quiz</a>
+        <a href="#games">Games</a>
+        <a href="#collect">Collectibles</a>
+        <a href="#contact">Contact</a>
     </nav>
-<br>
-<br>
-
-<!--search-->
-        <form>
-            <input type="search">
-            <button type="submit">Search</button>
-        </form>
-
-        <input type="date">
-<br>
-<br>
-
-<!-- log in form -->
-    <form>
-        <label>Email:</label>
-        <input type="email">
-        <label>Password:</label>
-        <input type="password">
-        <button type="submit">Submit</button>
-    </form>
-<br>
-
-<main>
-
-        <!-- about -->
-    <section id="about">
-                  <h2>Welcome ♡</h2>
-
-        <!-- kirby gif 1-->
-             <img src="https://s-media-cache-ak0.pinimg.com/originals/2f/c1/b8/2fc1b8f82e14172e3bcae39ca8c8ab33.gif"
-                alt="kirby gif with umberella"
-                width="100px">
-
-        <!-- intro -->
-        <p class="text" id="p1">Looking for a blog for all things cute? Well look no further!</p>
-        <p class="text" id="p2">At 35 years old, I have gone back to my roots. No not back to Liverpool after 13 years of living in London, but the things that I grew up with.</p>
     
+        <div class="page-content">
+<section id="forms-row">
+    <!--search-->
+        <div class="form-box">
+            <form>
+                <input type="search">
+                <button type="submit">Search</button>
+            </form>
+        </div>
+
+    <!-- date -->
+     <div class="form-box">   
+        <input type="date">
+    </div> 
+
+    <!-- log in form -->
+            <div class="form-box">
+        <form>
+            <label>Email:</label>
+            <input type="email">
+            <label>Password:</label>
+            <input type="password">
+            <button type="submit">Submit</button>
+        </form>
+            </div>
     </section>
 
-    <!-- quiz -->
+    <main>
+
+        <!-- about -->
+        <section id="about">
+            <h2>Welcome ♡</h2>
+
+            <!-- kirby gif 1-->
+        <div id="kirby-box">  
+            <img src="https://s-media-cache-ak0.pinimg.com/originals/2f/c1/b8/2fc1b8f82e14172e3bcae39ca8c8ab33.gif"
+                alt="kirby gif with umberella" width="100px">
+        </div>    
+
+            <!-- intro -->
+            <p class="text" id="p1">Looking for a blog for all things cute? Well look no further!</p>
+            <p class="text" id="p2">At 35 years old, I have gone back to my roots. No not back to Liverpool after 13
+                years of living in London, but the things that I grew up with.</p>
+
+        </section>
+
+        <!-- quiz -->
         <section id="quiz">
             <h2>Quiz ♡</h2>
-     
+
         <form>
-
-        <!-- Sanrio Character -->
-        
-        <fieldset>
-            <legend><b>What Sanrio character are you?</b></legend>
+            <!-- Sanrio Character -->
+             <fieldset>
+                <legend><b>What Sanrio character are you?</b></legend>
 
                 <label>
-                <input type="radio" name="sanrio" value="Hello Kitty">
-                Hello Kitty
+                    <input type="radio" name="sanrio" value="Hello Kitty">
+                    Hello Kitty
                 </label>
-          
+                
                 <label>
-                <input type="radio" name="sanrio" value="My Melody">
-                My Melody
+                    <input type="radio" name="sanrio" value="My Melody">
+                    My Melody
+                </label>
+                    
+                <label>
+                    <input type="radio" name="sanrio" value="Pompompurin">
+                    Pompompurin
+                </label>
+                    
+                <label>
+                    <input type="radio" name="sanrio" value="Cinnamoroll">
+                    Cinnamoroll
+                </label>
+                    
+                <label>
+                    <input type="radio" name="sanrio" value="Pochacco">
+                    Pochacco
+                </label>
+                
+                <label>
+                    <input type="radio" name="sanrio" value="Kuromi">
+                    Kuromi
+                </label>
+                
+                <label>
+                    <input type="radio" name="sanrio" value="Badtz-Maru">
+                    Badtz-Maru
                 </label>
 
+                <!-- other -->
                 <label>
-                <input type="radio" name="sanrio" value="Pompompurin">
-                Pompompurin
-                </label>
-
-                <label>
-                <input type="radio" name="sanrio" value="Cinnamoroll">
-                Cinnamoroll
-                </label>
-
-                <label>
-                <input type="radio" name="sanrio" value="Pochacco">
-                Pochacco
-                </label>
-
-                <label>
-                <input type="radio" name="sanrio" value="Kuromi">
-                Kuromi
-                </label>
-
-                <label>
-                <input type="radio" name="sanrio" value="Badtz-Maru">
-                Badtz-Maru
-                </label>
-
-                    <!-- other -->
-                    <label>
                     <input type="radio" name="sanrio" values="Other">
                     Other:
                     <input type="text" name="other-character" placeholder="type here">
-                    </label>
-             
-        
+                </label>
+
             </fieldset>
-        </section>
-
-            <!-- Consoles -->
-    
-             <fieldset>
-                <legend><b>What consoles do you own?</b></legend>
-
-            <label>
-                <input type="checkbox" name="console" value="Switch">
-                Switch 1/2
-             </label>
-          
-            <label>
-                <input type="checkbox" name="console" value="PC">
-                PC
-             </label>
-
-             <label>
-                <input type="checkbox" name="console" value="playstation">
-                PS4/PS5
-             </label>
-
-            <label>
-                <input type="checkbox" name="console" value="xbox">
-                XBOX S/X
-            </label>
-
-            <label>
-                <input type="checkbox" name="console" value="steam">
-                Steamdeck/Steam
-            </label>
-
-                <!-- other -->
-                 <label>
-                    <input type="checkbox" name="console" values="Other">
-                    Other:
-                <input type="text" name="other-console" placeholder="type here">
-                 </label>    
         
-                </fieldset>
-             
+
+        <!-- Consoles -->
+    <fieldset>
+        <legend><b>What consoles do you own?</b></legend>
+
+        <label>
+            <input type="checkbox" name="console" value="Switch">
+            Switch 1/2
+        </label>
+
+        <label>
+            <input type="checkbox" name="console" value="PC">
+            PC
+        </label>
+
+        <label>
+            <input type="checkbox" name="console" value="playstation">
+            PS4/PS5
+        </label>
+
+        <label>
+            <input type="checkbox" name="console" value="xbox">
+            XBOX S/X
+        </label>
+
+        <label>
+            <input type="checkbox" name="console" value="steam">
+            Steamdeck/Steam
+        </label>
+
+        <!-- other -->
+        <label>
+            <input type="checkbox" name="console" values="Other">
+            Other:
+            <input type="text" name="other-console" placeholder="type here">
+        </label>
+    </fieldset>
+
     <!--submit button-->
-        <button type="submit">Enter</button>     
+        <button type="submit">Enter</button>
+    </form>
+</section>
 
-        </form>
+    <!-- GRIDS -->
+    <section id="grids">
+        <h2>Getting griddy with it ♡</h2>
+
+       <div id="grid-examples"> 
+
+        <!-- 3x3 Grid-->
+         <h3>3 times 2</h3>
+         <div class="grid-3x2">
+            <div class="grid-item">Item 1</div>
+            <div class="grid-item">Item 2</div>
+            <div class="grid-item">Item 3</div>
+            <div class="grid-item">Item 4</div>
+            <div class="grid-item">Item 5</div>
+            <div class="grid-item">Item 6</div>
+         </div>
+
+         <h3>3 by 3</h3>
+         <div class="grid-3x3">
+            <div class="grid-3x3-item top">Item 1</div>
+            <div class="grid-3x3-item">Item 2</div>
+            <div class="grid-3x3-item">Item 3</div>
+            <div class="grid-3x3-item">Item 4</div>
+            <div class="grid-3x3-item bottom">Item 6</div>
+         </div>
+       </div>  
     </section>
 
-<!-- games -->
+
+        <!-- games -->
     <section id="games">
-                  <h2>Games ♡</h2>
+            <h2>Games ♡</h2>
 
-        <!-- computer gif 1-->
-             <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/477b1384-aa52-4b9c-8b01-e6cf8194d6f9/dexb4hn-1f812288-bac5-40e5-9b79-e6de79992cd0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80NzdiMTM4NC1hYTUyLTRiOWMtOGIwMS1lNmNmODE5NGQ2ZjkvZGV4YjRobi0xZjgxMjI4OC1iYWM1LTQwZTUtOWI3OS1lNmRlNzk5OTJjZDAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dXhNMo6siYFbohuPfXdJd78sOBZ1iXS8yTAsdrruMr4"
-                alt="pink computer loading"
-                width="100px">
+            <!-- computer gif 1-->
+            <img src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/477b1384-aa52-4b9c-8b01-e6cf8194d6f9/dexb4hn-1f812288-bac5-40e5-9b79-e6de79992cd0.gif?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiIvZi80NzdiMTM4NC1hYTUyLTRiOWMtOGIwMS1lNmNmODE5NGQ2ZjkvZGV4YjRobi0xZjgxMjI4OC1iYWM1LTQwZTUtOWI3OS1lNmRlNzk5OTJjZDAuZ2lmIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.dXhNMo6siYFbohuPfXdJd78sOBZ1iXS8yTAsdrruMr4"
+                alt="pink computer loading" width="100px">
 
-        <!-- intro -->
-        <p class="text" id="p3">Expect to find:</p>
-        <ul>
-            <li>Classics</li>
-            <li>Nintendo Switch</li>
-            <li>Playstation 5</li>
-             
-        </ul>
-    
+            <!-- games intro -->
+    <div id="games-wrap">
+
+        <!-- games images grid -->
+        <div id="games-grid">
+            <img src="https://static.vecteezy.com/system/resources/previews/043/731/445/non_2x/vintage-pink-computer-monitor-3d-element-illustration-png.png" alt="computer image loading" width="50px">
+            <img src="https://static.vecteezy.com/system/resources/previews/043/731/445/non_2x/vintage-pink-computer-monitor-3d-element-illustration-png.png" alt="computer image loading" width="50px">
+            <img src="https://static.vecteezy.com/system/resources/previews/043/731/445/non_2x/vintage-pink-computer-monitor-3d-element-illustration-png.png" alt="computer image loading" width="50px">
+            <img src="https://static.vecteezy.com/system/resources/previews/043/731/445/non_2x/vintage-pink-computer-monitor-3d-element-illustration-png.png" alt="computer image loading" width="50px">
+        </div>
+
+        <div id="games-text">
+            <p class="text" id="p3">Expect to find:</p>
+            <ul>
+                <li>Classics</li>
+                <li>Nintendo Switch</li>
+                <li>Playstation 5</li>
+            </ul>
+        </div>
+
+    </div>
     </section>
 
-    
-<!-- footer -->
+        <!-- footer -->
         <section id="contact">
             <h2>Contact ♡</h2>
 
             <section id="socials">
                 <a href="https://www.instagram.com/gameplayingamy/" target="_blank">
-                    <img src="https://cortex.persona.co/w/299/q/94/i/ae69aaeade81bd60e0eb6890649836f35a18cf7cd85c4f6b31aed486a9c64f2f/instagram-pixel-8-bit-logo.png" 
-                    width="50px"
-                    alt="instagram">
-                </a>
-
+                    <img src="https://images.icon-icons.com/3195/PNG/512/instagram_photo_icon_194548.png"
+                        width="50px" alt="instagram"></a>
                 <a href="https://www.tiktok.com/@gameplayingamy" target="_blank">
-                    <img src="https://assets.streamlinehq.com/image/private/w_300,h_300,ar_1/f_auto/v1/icons/logo/logo-social-media-tiktok-circle-9japsy3ya8miye5ierjaae.png/logo-social-media-tiktok-circle-xj1tewdjhaspqgkgmuln.png?_a=DATAg1ceZAA0" 
-                    width="50px"
-                    alt="tiktok">
-                </a>
-
+                    <img src="https://www.edigitalagency.com.au/wp-content/uploads/TikTok-icon-pink-PNG-large-size.png"
+                        width="50px" alt="tiktok"></a>
                 <a href="mailto:amyazarinejad@gmail.com" target="_blank">
-                    <img src="https://cdn-icons-png.freepik.com/512/408/408203.png" 
-                    width="50px"
-                    alt="email">
-                </a>
-
-            </section>
-    </section>
-
-</main>
-
-        <section id="footer">
-        <a href="#top">Back to top!</a>
+                    <img src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/pink-mail-icon.png" 
+                    width="50px" alt="email"></a>
+            </section>   
         </section>
 
+    </main>
+
+</div>
+
+    <footer id="footer">
+        <a href="#top">Back to top!</a>
+    </footer>
+
 </body>
+
 </html>
